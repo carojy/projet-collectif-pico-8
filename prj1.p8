@@ -1,25 +1,4 @@
-pico-8 cartridge // http://www.pico-8.com
-version 29
-__lua__
---ma belle page
-function _init()
-player {x=60,y=60,speed=4}
-mechants={}
-end
 
-
-function _update()
-if (btn(➡️)) x+=1
-if (btn(⬅️)) x-=1
-if (btn(⬆️)) y-=1
-if (btn(3)) y+=1
-if(btn(❎)) collisiont()--appelle la fonction coll
-
-end
-
-function _draw()
-cls(14)
-map(0,0,0,0)
 --objets collision
 spr(16,player.x,player.y)
 --panthere
