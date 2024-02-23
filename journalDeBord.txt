@@ -1,3 +1,9 @@
-Salut les p'tites panthères !
-Hey comment ça va ?
-Ca va et vous les loulous ?
+Groupe Panthere :
+
+Objectifs semaine projet
+
+- cloturer la carte 
+- singe balance bananes et quand la panthere est touchée recommence elle revient au début
+- ramassage objet (viandes, fruit, os) avec print pour afficher légende 
+- Bonus 1 - déplacements panthère flip
+- Bonus 2 - sons : musique de fond + rugissement collision
